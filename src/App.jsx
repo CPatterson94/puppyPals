@@ -5,16 +5,14 @@ import "./index.css";
 function App() {
   const [puppies] = useState(puppyList);
   const [featPupId, setFeatPupId] = useState(null);
-  () => {
-    console.log("puppy id: ", puppy.id);
-  };
+  () => {};
   const featuredPup = puppies.find((pup) => pup.id === featPupId);
   // console.log(featuredPup);
   return (
-    <div className="App">
+    <div className={"App"}>
       <h1>Puppies</h1>
       {featPupId && (
-        <div className="ele">
+        <div id={"ele"}>
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
