@@ -118,13 +118,13 @@ button:focus-visible {
   color: #1a1a1a;
   border-radius: 5px;
 }
-.ele {
+#ele {
   display: flex;
   flex-direction: column;
   align-content: center;
   box-sizing: border-box;
   border-radius: 5px;
-  background-color: gainsboro;
+  background-color: white;
   padding: 20px;
   text-decoration: underline;
   border-style: double;
